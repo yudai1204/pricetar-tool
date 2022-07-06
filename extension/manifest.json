@@ -1,0 +1,13 @@
+﻿{
+	"manifest_version":3,
+	"version": "0.1.1",
+	"name": "Pricetar Tool",
+	"description": "Amazon価格改定ツールの自動編集",
+	"content_scripts": [
+            {
+            	"matches": ["https://jp2.pricetar.com/seller/orders/orderlist*"],
+            	"js": ["main.js"]
+            }
+    	]
+	
+}
